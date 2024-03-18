@@ -2,37 +2,52 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.active{
+  background-color: #e19a14;;
+  border-radius: 12px 13px 20px 0px;
+  color: black !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+#login-card{
+  width:350px;
+  border-radius: 25px;
+  margin:150px auto;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#email{
+  border-radius:30px;
+  background-color: #ebf0fc;
+  border-color: #ebf0fc;
+  color: #9da3b0;
+  margin: 20px 0;
 }
 
-.App-link {
-  color: #61dafb;
+#button{
+  border-radius:30px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#btn{
+ position: absolute; 
+ bottom: -35px; 
+ padding: 5px;
+ margin: 0px 55px;
+ align-items: center;
+ border-radius: 5px
 }
+#container{
+  margin-top:25px;
+}
+
+.btn-circle.btn-sm { 
+          width: 40px; 
+          height: 40px; 
+          padding: 2px 0px; 
+          border-radius: 25px; 
+          font-size: 14px; 
+          text-align: center;
+          
+          margin: 8px;
+      }
